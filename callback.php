@@ -48,7 +48,7 @@ else
         $address = $friendinfo['address'];
         $display = $friendinfo['display'];
         
-        print htmlspecialchars('"'.$display.'" <'.$address.'> "');
+        print htmlspecialchars('"'.$display.'" <'.$address.'>');
         print '<br>';
         print "\n";    
     }
