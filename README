@@ -23,7 +23,8 @@ If there's an error, the user refuses access or it's an unsupported email
 provider, they'll still be redirected back to your URL, but the 
 contactsinfo parameter will be empty.
 
-This sample code shows the whole process in PHP. A live version runs at
+This sample code shows the whole process in PHP. To use it on your own 
+site, just edit CALLBACK_URL in config.php. A live version runs at
 http://web.mailana.com/labs/invite_example/
 
 For full documentation on the service, see 
