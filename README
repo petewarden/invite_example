@@ -14,7 +14,9 @@ a URL to return a contacts shortlist to:
 
 http://invitesdoneright.com/?emailaddress=someone%40gmail.com&callback=http%3A%2F%2Fweb.mailana.com%2Flabs%2Finvite_example%2Fcallback.php
 
-The service will then take the user through the Gmail or Yahoo mail authorization process, and then redirect to the callback URL you specified, passing information about the user's most frequent contacts in the
+The service will then take the user through the Gmail or Yahoo mail 
+authorization process, and redirect to the callback URL you specified, 
+passing information about the user's most frequent contacts in the
 contactsinfo URL parameter.
 
 This sample code shows the process in PHP.
