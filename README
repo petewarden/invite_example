@@ -1,0 +1,25 @@
+invite_example
+~~~~~~~~~~~~~~
+
+This code demonstrates how to use the InvitesDoneRight service to get a
+high-quality shortlist of contacts for a user. You can then show this
+shortlist to the user and let them pick friends to send invites too. This
+is a much better user experience than a space-shuttle control-panel list of
+their entire address book, and the improved targeting means fewer spam
+reports from recipients and higher conversion rates.
+
+To use it, simply add a step to your account creation process that
+redirects to InvitesDoneRight, passing the email address for the user and
+a URL to return a contacts shortlist to:
+
+http://invitesdoneright.com/?emailaddress=someone%40gmail.com&callback=http%3A%2F%2Fweb.mailana.com%2Flabs%2Finvite_example%2Fcallback.php
+
+The service will then take the user through the Gmail or Yahoo mail authorization process, and then redirect to the callback URL you specified, passing information about the user's most frequent contacts in the
+contactsinfo URL parameter.
+
+This sample code shows the process in PHP.
+
+For full documentation on the service, see 
+http://wiki.github.com/petewarden/invitesdoneright/
+
+Pete Warden <pete@petewarden.com>
