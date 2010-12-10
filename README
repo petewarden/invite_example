@@ -21,7 +21,8 @@ contactsinfo URL parameter.
 
 If there's an error, the user refuses access or it's an unsupported email provider, they'll still be redirected back to your URL, but the contactsinfo parameter will be empty.
 
-This sample code shows the whole process in PHP.
+This sample code shows the whole process in PHP. A live version runs at
+http://web.mailana.com/labs/invite_example/
 
 For full documentation on the service, see 
 http://wiki.github.com/petewarden/invitesdoneright/
